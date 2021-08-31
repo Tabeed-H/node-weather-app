@@ -33,9 +33,7 @@ formContainer.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const location = inputBox.value;
-  const url = `http://localhost:5000/weather?address=${encodeURIComponent(
-    location
-  )}`;
+  const url = `/weather?address=${encodeURIComponent(location)}`;
 
   //   splash screen
   dataContainer.innerHTML = "Loading";
