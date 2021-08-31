@@ -1,3 +1,4 @@
+console.log("Client side script");
 // selectors
 const dateContainer = document.querySelector(".header-date");
 const formContainer = document.querySelector("form");
